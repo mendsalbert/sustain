@@ -12,86 +12,9 @@ import Action from './dashboard/Pages/Action'
 import Support from './dashboard/Pages/Support'
 import { ethers } from 'ethers'
 import Sustain from './utils/Sustain.json'
-import { FGStorage, Auth } from '@co2-storage/js-api'
 
 function App() {
     const [projects, setprojects] = useState([])
-
-    const [auth, setAuth] = useState(null)
-    const [template, setTemplate] = useState(null)
-    const [asset, setAsset] = useState(null)
-    const [searchResults, setSearchResults] = useState(null)
-    const [searchPhrase, setSearchPhrase] = useState('')
-    const [projectCid, setProjectCid] = useState('')
-
-    // Authenticate user with private key
-
-    // Create project template
-    async function createTemplate() {
-        const templateData = {
-            type: 'project',
-            attributes: {
-                name: 'Sustain Project',
-                location: 'Achimota',
-                carbonToRemove: 1000
-            }
-        }
-        const addTemplateResponse = await new CO2Storage.FGStorage(
-            auth,
-            'js-ipfs',
-            'https://sustainsaveearth.netlify.app/',
-            'https://api.co2.evercity.io/v0/'
-        ).addTemplate(templateData, 'Sustain Project', 'Sustain Project')
-        setTemplate(addTemplateResponse)
-    }
-
-    // Add asset to project
-    async function addAsset() {
-        const assetData = {
-            type: 'contribution',
-            attributes: {
-                amount: 500
-            },
-            relationships: {
-                project: {
-                    data: {
-                        type: 'project',
-                        id: projectCid
-                    }
-                }
-            }
-        }
-        const addAssetResponse = await new CO2Storage.FGStorage(
-            auth,
-            'js-ipfs',
-            'https://sustainsaveearth.netlify.app/',
-            'https://api.co2.evercity.io/v0/'
-        ).addAsset(assetData, 'Sustain Asset', 'Sustain Asset')
-        setAsset(addAssetResponse)
-    }
-
-    // Search for templates and projects
-    async function search() {
-        const searchResponse = await new CO2Storage.FGStorage(
-            auth,
-            'js-ipfs',
-            'https://sustainsaveearth.netlify.app/',
-            'https://api.co2.evercity.io/v0/'
-        ).searchTemplates({ phrases: searchPhrase })
-        setSearchResults(searchResponse.result.templates)
-    }
-
-    // Retrieve specific project template
-    async function getTemplate(cid) {
-        const getTemplateResponse = await new CO2Storage.FGStorage(
-            auth,
-            'js-ipfs',
-            'https://sustainsaveearth.netlify.app/',
-            'https://api.co2.evercity.io/v0/'
-        ).getTemplate(cid)
-        setProjectCid(cid)
-        setTemplate(getTemplateResponse.result)
-    }
 
     useEffect(() => {
         async function fetchData() {
