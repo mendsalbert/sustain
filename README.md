@@ -41,6 +41,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 -   [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app)
 -   [Solidity](https://docs.soliditylang.org/en/v0.8.13/)
 -   [IPFS](https://ipfs.io/)
+-   [CO2.storage](https://co2.storage/profile)
 
 # Getting started
 
