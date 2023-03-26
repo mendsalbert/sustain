@@ -25,9 +25,7 @@ export default function Navigation() {
                         <li>
                             <Link to="/">Home</Link>
                         </li>
-                        <li>
-                            <Link to="/action">Actions</Link>
-                        </li>
+
                         <li>
                             <Link to="/about">About</Link>
                         </li>
@@ -42,13 +40,6 @@ export default function Navigation() {
                             largeScreen: true
                         }}
                     />
-                    <a
-                        className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-green-600 border border-green-600 rounded hover:bg-transparent hover:text-green-600 active:text-green-500 focus:outline-none focus:ring"
-                        type="submit"
-                        href="/summary"
-                    >
-                        <span className="text-sm font-medium">Get Started</span>
-                    </a>
                 </div>
                 <div className="md:hidden mr-4" onClick={handleClick}>
                     {!nav ? <MenuIcon className="w-5 text-white" /> : <XIcon className="w-5 text-white" />}
@@ -61,11 +52,7 @@ export default function Navigation() {
                         Home
                     </Link>
                 </li>
-                <li className="border-b-2 border-zinc-300 w-full">
-                    <Link to="/action" onClick={handleClose}>
-                        Actions
-                    </Link>
-                </li>
+
                 <li className="border-b-2 border-zinc-300 w-full">
                     <Link to="/about" onClick={handleClose}>
                         About
@@ -81,13 +68,6 @@ export default function Navigation() {
                             largeScreen: true
                         }}
                     />
-                    <a
-                        className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-green-600 border border-green-600 rounded hover:bg-transparent hover:text-green-600 active:text-green-500 focus:outline-none focus:ring"
-                        type="submit"
-                        href="/summary"
-                    >
-                        <span className="text-sm font-medium">Get Started</span>
-                    </a>
                 </div>
             </ul>
         </div>

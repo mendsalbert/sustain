@@ -10,9 +10,9 @@ const Sidebar = () => {
     const location = useLocation()
 
     const Menus = [
-        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
-        { title: 'Action', path: '/useraction', src: <FaBook /> },
-        { title: 'Support', path: '/support', src: <FaMoneyBill /> },
+        // { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
+        { title: 'Action', path: '/useraction', src: <FaBook /> }
+        // { title: 'Support', path: '/support', src: <FaMoneyBill /> },
     ]
 
     return (
@@ -28,33 +28,26 @@ const Sidebar = () => {
                     } absolute text-3xl bg-white fill-slate-800  rounded-full cursor-pointer top-9 -right-4 dark:fill-gray-400 dark:bg-gray-800`}
                     onClick={() => setOpen(!open)}
                 />
-                <Link to='/summary'>
+                <Link to="/summary">
                     <div className={`flex ${open && 'gap-x-4'} items-center`}>
-                    <FaCloudversify className=' text-green-600 lg:w-[35px] lg:h-[35px]' />
+                        <FaCloudversify className=" text-green-600 lg:w-[35px] lg:h-[35px]" />
                         {open && (
-                            <span className='text-xl font-medium whitespace-nowrap dark:text-white'>
-                                SUSTAIN.
-                            </span>
+                            <span className="text-xl font-medium whitespace-nowrap dark:text-white">SUSTAIN.</span>
                         )}
                     </div>
                 </Link>
 
-                <ul className='pt-6'>
+                <ul className="pt-6">
                     {Menus.map((menu, index) => (
                         <Link to={menu.path} key={index}>
                             <li
                                 className={`flex items-center gap-x-6 p-3 text-base font-normal rounded-lg cursor-pointer dark:text-white hover:bg-gray-200 dark:hover:bg-green-700
                         ${menu.gap ? 'mt-9' : 'mt-2'} ${
-                                    location.pathname === menu.path &&
-                                    'bg-gray-200 dark:bg-gray-700'
+                                    location.pathname === menu.path && 'bg-gray-200 dark:bg-gray-700'
                                 }`}
                             >
-                                <span className='text-2xl'>{menu.src}</span>
-                                <span
-                                    className={`${
-                                        !open && 'hidden'
-                                    } origin-left duration-300 hover:block`}
-                                >
+                                <span className="text-2xl">{menu.src}</span>
+                                <span className={`${!open && 'hidden'} origin-left duration-300 hover:block`}>
                                     {menu.title}
                                 </span>
                             </li>
