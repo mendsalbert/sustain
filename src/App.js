@@ -46,14 +46,14 @@ function App() {
             type: 'project',
             attributes: {
                 name: 'Sustain Project',
-                location: 'New York City',
+                location: 'Achimota',
                 carbonToRemove: 1000
             }
         }
         const addTemplateResponse = await new CO2Storage.FGStorage(
             auth,
             'js-ipfs',
-            'http://localhost:5001',
+            'https://sustainsaveearth.netlify.app/',
             'https://api.co2.evercity.io/v0/'
         ).addTemplate(templateData, 'Sustain Project', 'Sustain Project')
         setTemplate(addTemplateResponse)
@@ -78,7 +78,7 @@ function App() {
         const addAssetResponse = await new CO2Storage.FGStorage(
             auth,
             'js-ipfs',
-            'http://localhost:5001',
+            'https://sustainsaveearth.netlify.app/',
             'https://api.co2.evercity.io/v0/'
         ).addAsset(assetData, 'Sustain Asset', 'Sustain Asset')
         setAsset(addAssetResponse)
@@ -89,7 +89,7 @@ function App() {
         const searchResponse = await new CO2Storage.FGStorage(
             auth,
             'js-ipfs',
-            'http://localhost:5001',
+            'https://sustainsaveearth.netlify.app/',
             'https://api.co2.evercity.io/v0/'
         ).searchTemplates({ phrases: searchPhrase })
         setSearchResults(searchResponse.result.templates)
@@ -100,7 +100,7 @@ function App() {
         const getTemplateResponse = await new CO2Storage.FGStorage(
             auth,
             'js-ipfs',
-            'http://localhost:5001',
+            'https://sustainsaveearth.netlify.app/',
             'https://api.co2.evercity.io/v0/'
         ).getTemplate(cid)
         setProjectCid(cid)
