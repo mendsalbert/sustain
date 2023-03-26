@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="200" src="public/Cloudversify-01.png" alt="logo">
+    <img width="200" src="public/logonew.png" alt="logo">
 
 <h3 align="center">Sustain</h3>
 
@@ -18,7 +18,7 @@
 
 ## About The Project
 
-<img src="public/Screenshot.png" alt="screenshot" width="" >
+<img src="public/Cloudversify-01.png" alt="screenshot" width="" >
 
 # What it does
 
