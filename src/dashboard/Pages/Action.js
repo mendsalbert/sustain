@@ -230,7 +230,7 @@ function Action({ projects }) {
                                                     />
                                                 </div>
 
-                                                <p className="text-md font-medium">Targeted CarbonOffset</p>
+                                                <p className="text-md font-medium">End Date</p>
 
                                                 <div>
                                                     <label className="sr-only" for="amount">
