@@ -25,20 +25,6 @@ function App() {
     const [projectCid, setProjectCid] = useState('')
 
     // Authenticate user with private key
-    useEffect(() => {
-        async function authenticate() {
-            try {
-                const authResponse = await CO2Storage.Auth.authenticate({
-                    type: 'pk',
-                    key: 'YOUR_PRIVATE_KEY'
-                })
-                setAuth(authResponse.result)
-            } catch (error) {
-                console.error(error)
-            }
-        }
-        authenticate()
-    }, [])
 
     // Create project template
     async function createTemplate() {
