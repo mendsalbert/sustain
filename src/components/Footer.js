@@ -12,8 +12,9 @@ function Footer() {
                 </h2>
 
                 <p className="max-w-sm mx-auto mt-4 text-gray-500">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores
-                    ipsum eos temporibus ea nihil.
+                    Imagine that there is a platform where you can champion an action, 
+                    solicit funds and undertake actions to help reduce carbon footprints 
+                    in a particular society. Well that is exactly what Sustain is for.
                 </p>
 
                 <a href="/summary" className="inline-block px-12 py-3 mt-8 text-sm font-medium text-green-600 border border-green-600 hover:bg-green-600 hover:text-white focus:outline-none focus:ring active:bg-green-600">
