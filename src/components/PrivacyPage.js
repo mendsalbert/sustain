@@ -24,42 +24,44 @@ function PrivacyPage() {
             </p>
         
         
-            <h2 className="text-lg pt-20 font-extrabold text-gray-900 sm:text-5xl">
+            <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
                 Information we collect
-            </h2>
+            </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
                We collect personal information that you provide to us, such as your name,
             email address, and payment information when you register for an account, donate
             to an action, or communicate with us. We also collect information about your activities
             on our platform, such as the actions you champion and the funds you contribute.
             </p>
-
+        
+        <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+                How we use your information
+            </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
-                Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a 
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting, remaining
-                essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing 
-                    software like Aldus PageMaker including versions of 
-                    Lorem Ipsum.
+               We use your personal information to operate and improve our platform, to process your 
+                donations and payments, and to communicate with you about your account and actions you 
+                champion. We also use your information to send you updates about our platform and to inform 
+                you about new actions that may be of interest to you.
             </p>
-
+        
+                <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+                How we share your information
+            </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
-                Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a 
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting, remaining
-                essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing 
-                    software like Aldus PageMaker including versions of 
-                    Lorem Ipsum.
+               We may share your personal information with third-party service providers that help us operate
+                our platform, such as payment processors and hosting providers. We may also share your information
+                with the user who champions an action that you contribute to, in order to enable them to undertake 
+                the project and report back to the community. We may also share your information if required by law
+                or if we believe that disclosure is necessary to protect our rights or the rights of others.
+            </p>
+        
+         <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+                Security
+            </h4>
+            <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
+               We take reasonable measures to protect your personal information from unauthorized access and use. However,
+            no data transmission over the Internet or electronic storage system can be guaranteed to be 100% secure, so we
+            cannot guarantee the security of your information.
             </p>
 
 
