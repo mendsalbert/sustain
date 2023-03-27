@@ -24,7 +24,7 @@ function PrivacyPage() {
             </p>
         
         
-            <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+            <h4 className="text-lg pt-5 font-extrabold text-gray-900 sm:text-5xl">
                 Information we collect
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -34,7 +34,7 @@ function PrivacyPage() {
             on our platform, such as the actions you champion and the funds you contribute.
             </p>
         
-        <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+        <h4 className="text-lg pt-5  font-extrabold text-gray-900 sm:text-5xl">
                 How we use your information
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -44,7 +44,7 @@ function PrivacyPage() {
                 you about new actions that may be of interest to you.
             </p>
         
-                <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+                <h4 className="text-lg pt-5  font-extrabold text-gray-900 sm:text-5xl">
                 How we share your information
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -55,7 +55,7 @@ function PrivacyPage() {
                 or if we believe that disclosure is necessary to protect our rights or the rights of others.
             </p>
         
-         <h4 className="text-lg font-extrabold text-gray-900 sm:text-5xl">
+         <h4 className="text-lg pt-5 font-extrabold text-gray-900 sm:text-5xl">
                 Security
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
