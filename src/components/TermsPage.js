@@ -25,7 +25,7 @@ function TermsPage() {
                 By using our platform, you agree to the following terms and conditions:
             </p>
 
-             <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+             <h4 className="text-lg mx-auto max-w-5xl pt-10 font-extrabold text-gray-900 sm:text-5xl">
                 User Conduct
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -36,7 +36,7 @@ function TermsPage() {
                 that violates our community standards.
             </p>
         
-        <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+        <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                 Championing Actions
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -46,7 +46,7 @@ function TermsPage() {
                 help bring the project to fruition.
             </p>
 
-             <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+             <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                 Contributing Funds
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -55,7 +55,7 @@ function TermsPage() {
                 that any action will be fully funded, and users who contribute funds do so at their own risk.
             </p>
         
-        <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+        <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                 Undertaking Actions
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -64,14 +64,14 @@ function TermsPage() {
                 injuries that may result from the undertaking of a project.
             </p>
         
-        <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+        <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                 XDC Testnet
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
               In order to perform an activity on the Sustain platform, users must add XDC Testnet to their Metamask wallet.
             </p>
         
-        <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+        <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                 Intellectual Property
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -79,7 +79,7 @@ function TermsPage() {
                and software, are the property of Sustain and may not be used or reproduced without our prior written consent.
             </p>
         
-         <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+         <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                Liability
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
@@ -87,7 +87,7 @@ function TermsPage() {
                 not limited to lost profits, data loss, or personal injury. Users assume all risk and liability for their use of our platform.
             </p>
         
-         <h4 className="text-lg pt-10 font-extrabold text-gray-900 sm:text-5xl">
+         <h4 className="text-lg pt-10 mx-auto max-w-5xl font-extrabold text-gray-900 sm:text-5xl">
                Privacy
             </h4>
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
