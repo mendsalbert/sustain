@@ -10,7 +10,7 @@ const Sidebar = () => {
     const location = useLocation()
 
     const Menus = [
-        // { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
+        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
         { title: 'Action', path: '/useraction', src: <FaBook /> }
         // { title: 'Support', path: '/support', src: <FaMoneyBill /> },
     ]
@@ -20,7 +20,7 @@ const Sidebar = () => {
             <div
                 className={`${
                     open ? 'w-60' : 'w-fit'
-                } hidden h-screen sm:block relative duration-300 bg-black border-r border-gray-200 p-5`}
+                } hidden max-h-max sm:block relative duration-300 bg-black border-r border-gray-200 p-5`}
             >
                 <BsArrowLeftCircle
                     className={`${
@@ -28,7 +28,7 @@ const Sidebar = () => {
                     } absolute text-3xl bg-white fill-slate-800  rounded-full cursor-pointer top-9 -right-4 dark:fill-gray-400 dark:bg-gray-800`}
                     onClick={() => setOpen(!open)}
                 />
-                <Link to="/summary">
+                <Link to="/">
                     <div className={`flex ${open && 'gap-x-4'} items-center`}>
                         <FaCloudversify className=" text-green-600 lg:w-[35px] lg:h-[35px]" />
                         {open && (
